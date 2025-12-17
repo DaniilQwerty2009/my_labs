@@ -177,9 +177,12 @@ int main()
     cout << std::setfill('=') <<std::setw(60) << '=' << endl;
     cout << "Завершение программы." << endl;
 
+<<<<<<< HEAD
     int exit;
     cin >> exit;
 
+=======
+>>>>>>> afbaceba36415ee707d9b14e3da38c31d034e556
     return 0;
 }
 
@@ -230,6 +233,13 @@ int main()
 //    git add .
 //    git commit -m "Коротко что сделал"
 
+<<<<<<< HEAD
+=======
+// git commit --amend --no-edit
+// --amend → «переделай последний коммит»
+// --no-edit → «оставь сообщение таким же, не трогай его»
+
+>>>>>>> afbaceba36415ee707d9b14e3da38c31d034e556
 //    Примеры сообщений:
 //    - "Lab6: fix input parsing"
 //    - "Add Polynomial::operator+"
