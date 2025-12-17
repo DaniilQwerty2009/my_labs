@@ -2,6 +2,9 @@
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
 
+        "files.encoding": "utf8",
+        "files.autoGuessEncoding": true,
+
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
